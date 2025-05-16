@@ -51,3 +51,34 @@
                 
 
                 // else {console.log('the number is odd');}
+
+                // ================ basic-practice-project-07(Eligibility for online exam))===============
+              //               var question = prompt('Have you pay exam fee?(yes or no)');
+              //               var question_2 = prompt('Do you have a valid ID card?(yes or no)');
+              //               var question_3 = prompt('Have you attended the required number of classes?(yes or no)');
+              //               if (question === 'yes'){var flag_1 = question;}
+              // if (question_2 === 'yes'){var flag_2 = question_2;}
+              // if (question_3 === 'yes'){var flag_3 = question_3;}
+              // if(flag_1 && flag_2 && flag_3){console.log('you are eligible for online exam');}
+              // else{console.log('you are not eligible for online exam');} 
+// ================ basic-practice-project-07(Driving test eligibility))===============
+              // var question_1 = prompt('Are you 18 years old or older?(yes/no)');
+              // var question_2 = prompt('Do you have an Id card?(yes/no)');
+              // if (question_1 === 'yes'){var flag_1 = question_1;}
+              // if (question_2 === 'yes'){var flag_2 = question_2;}
+              // if (flag_1 && flag_2){console.log('you can take the driving test');}
+              // else{console.log('you are not eligible');}
+              // ================ basic-practice-project-07(Door lock system))===============
+                     // var question_1 = prompt('Is the correct password?(yes/no)');
+                     // var question_2 = prompt('Is the door closed?(yes/no)');
+                     // if (question_1 === 'yes'){var flag_1 = question_1;}
+                     // if (question_2 === 'yes'){var flag_2 = question_2;}
+                     // if (flag_1 && flag_2) {console.log('The door is now locked');}
+                     // else{console.log('Locking failed');}
+                     //  ================ basic-practice-project-08(Discount eligibility checker))===============
+                            var question_1 = prompt('Are you a member?(yes/no)');
+                            var question_2 = prompt('Do you have a coupn?(yes/no)'); 
+                            if (question_1 === 'yes'){var good_1 = question_1;}; 
+                            if(question_2 === 'yes'){var good_2  = question_2;};
+                            if (good_1 || good_2){console.log('you can get a discount');}
+                            else{console.log('No discount available');}
