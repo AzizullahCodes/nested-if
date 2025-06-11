@@ -83,18 +83,18 @@
 
 
                      //  ================ basic-practice-project-09(Discount eligibility checker))===============
-                            // var question_1 = prompt('Are you a member?(yes/no)');
-                            // var question_2 = prompt('Do you have a coupn?(yes/no)'); 
-                            // if (question_1 === 'yes'){var good_1 = question_1;}; 
-                            // if(question_2 === 'yes'){var good_2  = question_2;};
-                            // if (good_1 || good_2){console.log('you can get a discount');}
-                            // else{console.log('No discount available');}
+                             var question_1 = prompt('Are you a member?(yes/no)');
+                             var question_2 = prompt('Do you have a coupn?(yes/no)'); 
+                             if (question_1 === 'yes'){var good_1 = question_1;}; 
+                             if(question_2 === 'yes'){var good_2  = question_2;};
+                             if (good_1 || good_2){console.log('you can get a discount');}
+                             else{console.log('No discount available');}
 
 
                              //  ================ basic-practice-project-10(Age verification for movie))===============
-                                          // var age = prompt('Enter your age');
-                                          // if (age >= 18){console.log('You can watch the movie');}
-                                          // else{console.log('you are not allowed to watch the movie');}
+                                           var age = prompt('Enter your age');
+                                           if (age >= 18){console.log('You can watch the movie');}
+                                           else{console.log('you are not allowed to watch the movie');}
 
                                           //  ================ basic-practice-project-11(Exam Grade Checker))===============
                             //               var marks = prompt('Enter your marks(0 to 100)');
